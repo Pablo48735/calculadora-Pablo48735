@@ -14,6 +14,10 @@ public class Calculadora {
 
     public static int multiplicar(int a, int b) {
         return a * b;
+
+            public static int dividir(int a, int b) {
+        return a / b;
+            }
     }
 
     public static void main(String[] args) {
@@ -21,5 +25,6 @@ public class Calculadora {
         System.out.println("5 + 3 = " + sumar(5, 3));
         System.out.println("5 - 3 = " + restar(5, 3));
         System.out.println("5 * 3 = " + multiplicar(5, 3));
+        System.out.println("6 / 3 = " + dividir(6, 3));
     }
 }
